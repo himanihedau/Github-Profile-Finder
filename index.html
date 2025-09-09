@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Profile Finder</title>
+
+  <!-- Remix Icon + GSAP + CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+
+<body>
+  <div class="text"><h1>Github Profile Finder</h1></div>
+
+  <div class="cat-img">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.OMeY5HesFceGyCS4biSd5QHaEK?pid=Api&P=0&h=180" alt="cat">
+  </div>
+
+  <div class="search-bar">
+    <input type="text" id="username" placeholder="Enter username" />
+    <button id="btn"><i class="ri-search-eye-line"></i></button>
+  </div>
+
+  <div id="profile-container"></div>
+
+  <div id="welcome-box" class="welcome-box">
+    <p>👋 <strong>Welcome to GitHub Profile Finder!</strong><br>Enter a GitHub username above to view their profile details.</p>
+    <button onclick="closeWelcomeBox()">Got it!</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
